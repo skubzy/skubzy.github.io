@@ -26,7 +26,8 @@ const PROJECTS = [
   {title:"VI Glasses", blurb:"Assistive technology glasses for the blind using computer vision and audio feedback.", tags:["embedded","ai"], link:"viGlasses.html", image:"assets/VI glasses/Screenshot 2025-11-20 004803.png"},
   {title:"Apps4Apps", blurb:"Android app aggregator with Firebase login and nav fragments.", tags:["android"], link:"app4Apps.html", image:"assets/App/ProjectApp.jpg"},
   {title:"Traffic Light FSM", blurb:"Verilog/VHDL traffic light controller on FPGA dev board.", tags:["embedded"], link:"trafficLightSim.html", image:""},
-  {title:"Gen3 Kinematics", blurb:"MATLAB DH model & forward kinematics for Kinova Gen3.", tags:["robotics"], link:"gen3Kinematics.html", image:"assets/Robotics/ProjectRobotic.png"}
+  {title:"Gen3 Kinematics", blurb:"MATLAB DH model & forward kinematics for Kinova Gen3.", tags:["robotics"], link:"gen3Kinematics.html", image:"assets/Robotics/ProjectRobotic.png"},
+  {title:"QNX Airplane Control System", blurb:"Airport control system & vulnerability exploration on QNX 8.0 using Raspberry Pi and tilt sensor.", tags:["embedded"], link:"qnxAirplane.html", image:"assets/QNX/project1.png"}
 ];
 
 const EVENTS = [
@@ -78,7 +79,7 @@ const RESUME_HIGHLIGHTS = [
             <div>${p.tags.map(t => `<span class='tag'>${t}</span>`).join('')}</div>
           </div>
           <p class="muted" style="margin:8px 0 12px">${p.blurb}</p>
-          <a class="btn" href="${p.link}" target="_blank" rel="noopener">View</a>
+          <a class="btn" href="${p.link}">View</a>
         </div>
       `;
       grid.appendChild(el);

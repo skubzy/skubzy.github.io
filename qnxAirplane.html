@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paul Chukwu — QNX Airplane Control System</title>
+  <meta name="description" content="Airport control & vulnerability research on QNX 8.0 with Raspberry Pi 5." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Paul Chukwu — Home">
+        <img class="logo" src="assets/Logo/PaulsLogo.png" alt="" />
+        <span>Paul Chukwu</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" data-tab="home">Home</a>
+        <a href="projects.html" data-tab="projects">Projects</a>
+        <a href="events.html" data-tab="events">Events</a>
+        <a href="resume.html" data-tab="resume">Resume</a>
+        <a href="videos.html" data-tab="videos">Videos</a>
+        <a class="cta" href="mailto:paul.chukwu@example.com">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container">
+    <div class="card">
+      <div class="card-inner">
+        <div class="project-header">
+          <h1 class="big-title">QNX Airplane Control System</h1>
+          <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <span class="tag">Embedded</span>
+          </div>
+        </div>
+        <p class="muted">Airport control system prototype and white‑hat vulnerability exploration on QNX 8.0 running on Raspberry Pi 5.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Project Overview</h2>
+    <div class="card">
+      <div class="card-inner">
+        <p class="muted">After mentoring at the Ross Video hackathon, I joined uOttawaHack to tackle both the NAV CANADA and QNX challenges. The idea was to build an airport control station that communicates with a small plane; when the navigation team detects the aircraft, the system sends a landing clearance. If the pilot does not respond, we switch into an interactive mode using a tilt sensor. A slight tilt toward landing triggers a runway‑clearance protocol and rhythmic light flashing.</p>
+        <p class="muted" style="margin-top:16px">Beyond the demo, our true goal was to explore vulnerabilities in a QNX 8.0 system — a real flight‑critical OS. We aimed to execute a controlled white‑hat attack to see how the platform responds to a fault. Time and caution prevented us from carrying out the attack, but the research and setup taught us a great deal about QNX internals and cross‑compiling C code to the Raspberry Pi 5.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Achievements</h2>
+    <div class="card">
+      <div class="card-inner">
+        <ul class="feature-list">
+          <li>Implemented a miniature airport with a plane that tilts downward when approaching, activating runway lights and landing mode.</li>
+          <li>Cross‑compiled C programs (including headers) for Raspberry Pi 5 running QNX 8.0.</li>
+          <li>Learned QNX operating system structure and safe vulnerability testing practices.</li>
+          <li>Worked on both navigation communication and control logic under tight deadlines.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-grid">
+      <div class="gallery-section">
+        <h3 class="gallery-title">Project Photos</h3>
+        <div class="photo-grid expandable">
+          <div class="photo-item clickable"><img src="assets/QNX/project1.png" alt="QNX setup on table" /></div>
+          <div class="photo-item clickable"><img src="assets/QNX/project2.png" alt="uOttawaHack team with prototype" /></div>
+          <div class="photo-item clickable"><img src="assets/QNX/project3.png" alt="Close‑up of airplane control hardware" /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">Team & Acknowledgements</h2>
+    <div class="card">
+      <div class="card-inner">
+        <p class="muted">Thank you to <strong>Rachel Luo</strong>, <strong>Fatimata A. Dramane</strong>, and <strong>Ro'Yah R.</strong> for being great teammates. Special shout‑out to the whole group for putting in the effort despite time constraints and for the learning experience gained.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <a class="btn primary" href="projects.html">Back to Projects</a>
+  </section>
+
+  <footer class="container">
+    <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+      <div>© <span id="year"></span> Paul Chukwu. All rights reserved.</div>
+      <div class="muted">Built with vanilla HTML/CSS/JS. Deployed on GitHub Pages or Netlify.</div>
+    </div>
+  </footer>
+
+  <!-- include global script and gallery modal same as other project pages -->
+  <script src="script.js"></script>
+  <script>
+    // image expansion modal (same logic used on other project pages)
+    document.querySelectorAll('.photo-grid.expandable .photo-item.clickable img').forEach(img => {
+      img.addEventListener('click', function() {
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const captionText = document.getElementById('caption');
+        modal.style.display = 'block';
+        modalImg.src = this.src;
+        captionText.textContent = this.alt;
+      });
+    });
+
+    const modal = document.getElementById('imageModal');
+    const closeBtn = document.querySelector('.modal-close');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+      });
+    }
+
+    if (modal) {
+      modal.addEventListener('click', function(e) {
+        if (e.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
+    }
+  </script>
+
+  <!-- Image Modal -->
+  <div id="imageModal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImage" />
+    <div id="caption"></div>
+  </div>
+
+</body>
+</html>
