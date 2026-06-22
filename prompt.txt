@@ -1,0 +1,114 @@
+I want you to fully rework this portfolio website into a polished, professional engineering portfolio for Paul Chukwu, a Computer Engineering student/graduate focused on embedded systems, FPGA/RTL, firmware, AI/ML deployment, and product-focused engineering.
+
+Start by inspecting the entire repository structure, existing styling, components, assets, and README. Keep the overall visual theme and personality of the current website, but redesign the layout using a more official, recruiter-friendly portfolio structure. The final site should feel modern, technical, clean, and credible — not like a casual personal page.
+
+Main goals:
+
+1. Remove all personal photos of me
+
+* Find and remove any personal/headshot/casual photos from the site UI.
+* Do not delete files unless safe, but remove their usage from components/pages.
+* Replace photo-based hero sections with a professional abstract visual: code-style panel, embedded systems/PCB-inspired graphic, gradient card, terminal block, or project-focused visual.
+* Do not use random stock photos.
+
+2. Rebuild the portfolio structure
+   Create or improve these sections:
+
+* Hero section: name, role focus, short value statement, buttons for Resume, GitHub, LinkedIn, and Projects.
+* About section: concise professional summary focused on embedded systems, firmware, hardware/software integration, FPGA/RTL, AI deployment, and building real products.
+* Featured Projects section: make this the strongest part of the site.
+* Experience section: include internships/work experience in a professional format.
+* Skills section: grouped by category, not a messy list.
+* Resume section: clear “Download Resume” button linking to the updated PDF.
+* Contact section: simple professional CTA for recruiters and collaborators.
+* Footer with GitHub, LinkedIn, email, and last updated date.
+
+3. Add/import the important projects
+   Use the existing repo content and any current project data already present. Also add structured project cards for the following types of projects if they are not already included:
+
+* eSoTrash / EcoSorter: smart waste sorting/recycling product concept, pitch competition project, hardware/product-focused system.
+* Jetson / AI pose estimation project: NVIDIA Jetson, computer vision, ONNX/model optimization, GPU inference, real-time AI deployment.
+* FPGA / RTL / UART Traffic Light Controller: Verilog/VHDL/SystemVerilog, UART transmitter, FSM, baud rate generation, ModelSim/Quartus, hardware debugging.
+* Ross Video FBGA Challenge: video/SDI display challenge, vector manipulation, hackathon award/second place.
+* Embedded weather LCD/OLED Raspberry Pi project: Raspberry Pi, Python, GPIO/I2C/SPI/display integration.
+* Android/Firebase app project if present: mobile app development, Firebase/Firestore, Java/Kotlin/Android Studio.
+* Racing car telemetry or embedded telemetry project if present: C/C++, sensor/telemetry functions, hardware/software integration.
+* Any other strong projects already in the repo or GitHub.
+
+Important: Do not invent fake metrics. If exact numbers are not available, write strong but honest impact-focused descriptions. Use placeholders like “Add metric here” only where a real metric should later be inserted.
+
+4. Make the website easy to update constantly
+   Create a clean data-driven structure for projects and resume updates. Prefer one of these depending on the current stack:
+
+* `src/data/projects.ts`
+* `src/data/projects.json`
+* `content/projects/*.md`
+
+Each project should support:
+
+* title
+* category
+* short summary
+* technologies
+* role/contribution
+* highlights/bullets
+* GitHub link
+* demo link
+* image/icon/visual
+* featured true/false
+* date or year
+
+Add comments or README instructions explaining exactly how I can add a new project later without touching the layout.
+
+5. Resume integration
+
+* Link the Resume button to `public/resume/Paul_Chukwu_Resume.pdf` or the correct public path used by this framework.
+* Add a resume card/section that says “Updated Resume” and includes a download button.
+* If the PDF is missing, create the correct folder/path expectation and tell me exactly where to place the file.
+* Do not hardcode an outdated resume if a newer file exists.
+
+6. Make the design recruiter-friendly
+   The first 10 seconds of the site should clearly show:
+
+* I am an engineering candidate.
+* My strongest direction is embedded systems / firmware / FPGA / hardware-software products.
+* I have real projects.
+* My resume is easy to download.
+* My GitHub and LinkedIn are easy to access.
+
+Use clean spacing, strong typography, responsive layout, and subtle animations only if already supported. Avoid excessive flashy effects that hurt readability.
+
+7. Technical quality requirements
+
+* Preserve the existing framework and package setup unless there is a clear reason to change it.
+* Do not break deployment.
+* Make the site fully responsive for mobile, tablet, and desktop.
+* Improve accessibility: semantic HTML, alt text for non-decorative images, keyboard-friendly links/buttons, sufficient contrast.
+* Improve SEO metadata: title, description, Open Graph if supported.
+* Add or update README instructions for running locally, building, deploying, updating projects, and updating the resume.
+* Remove unused imports/components/assets where safe.
+* Run formatter/linter/build commands available in the repo, such as `npm run lint`, `npm run build`, or equivalent. Fix any errors caused by your changes.
+
+8. Content tone
+   Use a professional but human tone. Avoid overhyped phrases like “visionary,” “world-class,” or “revolutionary.” Make it sound credible for engineering recruiters.
+
+Suggested hero copy:
+“Computer Engineering graduate focused on embedded systems, firmware, FPGA/RTL, and AI-enabled hardware products. I build practical systems that connect software, hardware, and real-world constraints.”
+
+Suggested project card style:
+
+* Problem
+* What I built
+* Tools/technologies
+* Result/impact
+* Link to code/demo
+
+9. Final output
+   After making changes, summarize:
+
+* What files you changed
+* What sections were added or rebuilt
+* Where the resume file should be placed
+* How to add a new project later
+* Any commands run and whether the build passed
+Use my actual GitHub links and resume file already in the repo when you find them. Do not make up links. -https://github.com/skubzy,  https://www.linkedin.com/in/paul-chukwu-a49b9a227/

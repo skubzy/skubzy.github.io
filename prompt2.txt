@@ -1,0 +1,73 @@
+I want you to update my portfolio website to better represent me as a Computer Engineering graduate focused on embedded systems, firmware, FPGA/RTL, hardware-software integration, and building real products.
+
+Do not place everything under “Projects.” I want the website to be organized professionally with these sections:
+
+1. Hero section
+2. Featured Engineering Projects
+3. Hackathons & Competitions
+4. Leadership & Community
+5. Workshops & Technical Teaching
+6. Skills
+7. Resume
+8. Contact
+
+Keep the overall theme and visual identity of the current website, but make it more official, clean, modern, and recruiter-friendly. Remove personal photos of me unless they are directly relevant to professional engineering work. Use project images, diagrams, screenshots, hardware photos, or clean placeholder visuals instead.
+
+Main positioning:
+“Computer Engineering graduate focused on embedded systems, firmware, FPGA/RTL, edge AI, and hardware-software product development.”
+
+For the Featured Engineering Projects section, highlight my strongest technical builds such as:
+- Embedded systems projects
+- Jetson / edge AI projects
+- EcoSorter / Ecollector / Esotrash
+- RTL / FPGA / UART / digital systems projects
+- Shell Eco Marathon / telemetry work if available
+
+Each project card should include:
+- Project title
+- Short description
+- Tools/technologies used
+- What I personally built
+- GitHub/demo link if available
+- Image or screenshot placeholder
+
+Add a new section called “Hackathons & Competitions” and include:
+- Skytrac Hackathon
+- SESA Mini Hackathons
+- Hack the Hill / Ross Video FBGA Challenge
+- Crunch Competition / EcoSorter
+
+Use professional wording. These should show teamwork, rapid prototyping, technical problem solving, and product thinking.
+
+Add a new section called “Leadership & Community” and include:
+- Vice Chair, CEGSC / IEEE uOttawa Branch
+- CEC event involvement
+- Engineering student community involvement
+
+Use wording that shows leadership, event support, engineering community engagement, student outreach, and professional development.
+
+Add a new section called “Workshops & Technical Teaching” and include:
+- Verilog Workshop Host
+
+Description:
+“Hosted a technical workshop introducing students to Verilog, digital logic design, and hardware description language fundamentals. Helped students understand RTL concepts through practical examples and guided explanations.”
+
+The website should make me look like someone who:
+- Builds real hardware/software products
+- Has embedded systems and firmware experience
+- Understands FPGA/RTL and digital systems
+- Has practical AI/edge computing experience
+- Participates in hackathons and engineering competitions
+- Takes leadership in the engineering community
+- Can communicate and teach technical concepts
+
+Make the design recruiter-friendly:
+- Clear section headings
+- Strong project cards
+- Short but powerful descriptions
+- Resume download button
+- GitHub, LinkedIn, and email links
+- Mobile responsive layout
+- Clean spacing and consistent typography
+
+Do not over-clutter the site. The goal is to make it easy for a recruiter or engineering manager to understand my strengths in under 60 seconds.

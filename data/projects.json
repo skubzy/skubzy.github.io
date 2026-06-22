@@ -1,0 +1,218 @@
+[
+  {
+    "title": "Jetson AI Pose Estimation Prototype",
+    "category": "AI / edge deployment",
+    "summary": "NVIDIA Jetson based AI prototype focused on real-time pose estimation, model optimization, and GPU inference on embedded hardware.",
+    "technologies": ["NVIDIA Jetson", "Computer Vision", "ONNX", "GPU Inference", "Python"],
+    "role": "Built and iterated on an edge-AI workflow that connects model deployment to hardware constraints.",
+    "highlights": [
+      "Targets real-time AI deployment on Jetson-class embedded hardware.",
+      "Focuses on practical optimization concerns such as model format, inference speed, and hardware limits.",
+      "Add metric here when measured FPS, model size, or latency is finalized."
+    ],
+    "github": "",
+    "demo": "",
+    "image": "",
+    "featured": true,
+    "date": "2026",
+    "tags": ["ai", "embedded", "product"]
+  },
+  {
+    "title": "EcoSorter / eSoTrash",
+    "category": "Embedded product",
+    "summary": "Smart waste sorting and recycling product concept combining sensing, classification, and servo-controlled routing.",
+    "technologies": ["Embedded", "Computer Vision", "Servo Control", "Product Design"],
+    "role": "Built and presented the product concept with hardware/software system thinking.",
+    "highlights": [
+      "Framed the recycling contamination problem as a practical product concept.",
+      "Connected AI-assisted classification to a physical sorting mechanism.",
+      "Used pitch-competition style constraints to keep the prototype focused and explainable."
+    ],
+    "github": "",
+    "demo": "ecollector.html",
+    "image": "assets/Eco/ProjectEco1.png",
+    "featured": true,
+    "date": "2023",
+    "tags": ["embedded", "ai", "product"]
+  },
+  {
+    "title": "Ultra Drone Detector",
+    "category": "AI / computer vision",
+    "summary": "CNN-based drone detection project with visual outputs and video demo assets.",
+    "technologies": ["Python", "CNN", "Computer Vision", "Model Optimization"],
+    "role": "Developed the detection workflow and documented model behavior through demo media.",
+    "highlights": [
+      "Built a computer vision pipeline for drone detection.",
+      "Focused on real-time inference tradeoffs and deployment readiness.",
+      "Kept project evidence visible through screenshots and demo video."
+    ],
+    "github": "",
+    "demo": "uddCNN.html",
+    "image": "assets/CNN Projects/image.png",
+    "featured": true,
+    "date": "2025",
+    "tags": ["ai"]
+  },
+  {
+    "title": "QNX Airplane Control System",
+    "category": "Embedded systems",
+    "summary": "Airport control prototype on Raspberry Pi 5 with QNX 8.0, tilt sensing, lights, and C cross-compilation.",
+    "technologies": ["QNX", "Raspberry Pi 5", "C", "Tilt Sensor", "Embedded RTOS"],
+    "role": "Worked on control logic, QNX setup, and safe vulnerability research direction during uOttawaHack.",
+    "highlights": [
+      "Cross-compiled C code for Raspberry Pi 5 running QNX 8.0.",
+      "Built landing-mode behavior around sensor input and runway light feedback.",
+      "Explored flight-critical OS concepts with a white-hat research mindset."
+    ],
+    "github": "",
+    "demo": "qnxAirplane.html",
+    "image": "assets/QNX/project1.png",
+    "featured": true,
+    "date": "2025",
+    "tags": ["embedded", "product"]
+  },
+  {
+    "title": "FPGA / RTL UART Traffic Light Controller",
+    "category": "FPGA / RTL",
+    "summary": "Traffic light control project using RTL finite-state-machine design, UART serial communication, baud-rate generation, and hardware debugging.",
+    "technologies": ["VHDL", "SystemVerilog", "UART", "FSM", "Quartus", "ModelSim"],
+    "role": "Designed the project structure around clear FSM behavior, timing, baud generation, and verification expectations.",
+    "highlights": [
+      "Models traffic-light sequencing as explicit state transitions.",
+      "Includes UART transmitter and baud-rate generation as core communication blocks.",
+      "Good fit for demonstrating simulation, timing, and hardware debugging skills."
+    ],
+    "github": "",
+    "demo": "trafficLigtSim.html",
+    "image": "",
+    "featured": true,
+    "date": "2025",
+    "tags": ["fpga", "embedded"]
+  },
+  {
+    "title": "Ross Video FBGA Challenge",
+    "category": "Hackathon / video systems",
+    "summary": "FPGA/video display challenge involving vector manipulation and fast technical collaboration; recognized with second place.",
+    "technologies": ["FPGA Video", "Display Logic", "Vector Manipulation", "Hackathon"],
+    "role": "Contributed to the hackathon solution under time pressure and helped frame the technical demo.",
+    "highlights": [
+      "Worked with video/display constraints in a sponsor challenge setting.",
+      "Practiced translating low-level manipulation tasks into a working demo.",
+      "Second-place recognition noted from the prompt/project context."
+    ],
+    "github": "",
+    "demo": "",
+    "image": "",
+    "featured": true,
+    "date": "2025",
+    "tags": ["product", "fpga"]
+  },
+  {
+    "title": "Racing Car Telemetry System",
+    "category": "Embedded telemetry",
+    "summary": "Embedded telemetry project focused on collecting, structuring, and communicating vehicle or sensor data from a physical system.",
+    "technologies": ["C/C++", "Telemetry", "Sensors", "Embedded Systems", "Hardware Integration"],
+    "role": "Worked on telemetry-oriented embedded functions that connect sensor data to system-level debugging and analysis.",
+    "highlights": [
+      "Shows hardware software integration through sensor data collection and communication.",
+      "Relevant to firmware, validation, and systems engineering roles.",
+      "Add metric here when sample rate, bus type, or data fields are finalized."
+    ],
+    "github": "",
+    "demo": "",
+    "image": "",
+    "featured": true,
+    "date": "2026",
+    "tags": ["embedded", "product"]
+  },
+  {
+    "title": "Embedded Weather Display",
+    "category": "Embedded display",
+    "summary": "Raspberry Pi weather display concept using Python with GPIO/I2C/SPI display integration.",
+    "technologies": ["Raspberry Pi", "Python", "GPIO", "I2C", "SPI", "LCD/OLED"],
+    "role": "Structured as an embedded integration project for sensor/display workflows.",
+    "highlights": [
+      "Demonstrates display bring-up and hardware interface thinking.",
+      "Useful resume project for GPIO, I2C/SPI, and Python automation.",
+      "Add metric here when refresh rate, API source, or hardware model is finalized."
+    ],
+    "github": "",
+    "demo": "",
+    "image": "",
+    "featured": false,
+    "date": "2025",
+    "tags": ["embedded"]
+  },
+  {
+    "title": "Coffee Date",
+    "category": "Android / Firebase",
+    "summary": "Full-stack Android dating app with Firebase authentication, profile flows, matching, and real-time messaging concepts.",
+    "technologies": ["Android Studio", "Java", "Firebase", "Firestore", "Realtime Database"],
+    "role": "Built mobile screens and backend-connected flows for user profiles, matching, and messaging.",
+    "highlights": [
+      "Uses Firebase-backed authentication and data storage patterns.",
+      "Shows product UI work beyond hardware-only projects.",
+      "Includes screenshots for visible app evidence."
+    ],
+    "github": "",
+    "demo": "coffeeDate.html",
+    "image": "assets/Coffee date/Screenshot 2025-11-20 003443.png",
+    "featured": false,
+    "date": "2025",
+    "tags": ["android", "product"]
+  },
+  {
+    "title": "Mirror Cap",
+    "category": "Assistive embedded device",
+    "summary": "Wearable assistive prototype using ultrasonic sensing, LDR input, haptics, and buzzer feedback.",
+    "technologies": ["Arduino", "Ultrasonic Sensor", "LDR", "Haptics", "Buzzer"],
+    "role": "Integrated sensors and feedback outputs into a wearable assistive technology prototype.",
+    "highlights": [
+      "Combines multiple sensors with non-visual feedback.",
+      "Demonstrates physical prototyping and firmware control logic.",
+      "Frames hardware choices around real user constraints."
+    ],
+    "github": "",
+    "demo": "mirrorCap.html",
+    "image": "assets/Mirror/ProjectMirror1.jpg",
+    "featured": false,
+    "date": "2024",
+    "tags": ["embedded", "product"]
+  },
+  {
+    "title": "VI Glasses",
+    "category": "Assistive AI hardware",
+    "summary": "Assistive glasses project using computer vision and audio feedback concepts for visually impaired users.",
+    "technologies": ["Computer Vision", "Embedded Systems", "Audio Feedback", "Wearable Prototype"],
+    "role": "Built and documented an assistive technology concept combining sensing and feedback.",
+    "highlights": [
+      "Connects computer vision to user-facing assistive feedback.",
+      "Uses project media already present in the repository.",
+      "Good example of product-focused engineering in accessibility."
+    ],
+    "github": "",
+    "demo": "viGlasses.html",
+    "image": "assets/VI glasses/Screenshot 2025-11-20 004803.png",
+    "featured": false,
+    "date": "2025",
+    "tags": ["embedded", "ai", "product"]
+  },
+  {
+    "title": "Gen3 Kinematics",
+    "category": "Robotics",
+    "summary": "Kinova Gen3 forward-kinematics project using MATLAB and Denavit-Hartenberg modeling.",
+    "technologies": ["MATLAB", "Robotics", "DH Parameters", "Kinematics"],
+    "role": "Modeled robotic arm motion and documented the math-to-system workflow.",
+    "highlights": [
+      "Shows robotics fundamentals and mathematical modeling.",
+      "Connects simulation work to real manipulator structure.",
+      "Useful supporting project for robotics and controls discussions."
+    ],
+    "github": "",
+    "demo": "gen3Kinematics.html",
+    "image": "assets/Robotics/ProjectRobotic.png",
+    "featured": false,
+    "date": "2024",
+    "tags": ["product"]
+  }
+]

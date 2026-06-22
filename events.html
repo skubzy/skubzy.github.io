@@ -3,52 +3,51 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Paul Chukwu — Events</title>
-  <meta name="description" content="Talks, meetups, classes — past and upcoming." />
+  <title>Paul Chukwu | Events</title>
+  <meta name="description" content="Selected talks, hackathons, community events, and engineering activities for Paul Chukwu." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="https://apis.google.com/js/client.js"></script>
 </head>
 <body>
   <nav class="nav">
     <div class="container nav-inner">
-<a class="brand" href="index.html" aria-label="Paul Chukwu — Home">
-  <img class="logo" src="assets/Logo/PaulsLogo.png" alt="" />
-  <span>Paul Chukwu</span>
-</a>
-      <div class="nav-links">
+      <a class="brand" href="index.html" aria-label="Paul Chukwu home">
+        <img class="logo" src="assets/Logo/PaulsLogo.png" alt="" />
+        <span>Paul Chukwu</span>
+      </a>
+      <div class="nav-links" aria-label="Primary navigation">
         <a href="index.html" data-tab="home">Home</a>
         <a href="projects.html" data-tab="projects">Projects</a>
-        <a href="events.html" data-tab="events">Events</a>
+        <a href="skills.html" data-tab="skills">Skills</a>
         <a href="resume.html" data-tab="resume">Resume</a>
-        <a href="videos.html" data-tab="videos">Videos</a>
-        <a class="cta" href="mailto:paul.chukwu@example.com">Contact</a>
+        <a class="cta" href="mailto:paul.chukwu.official@gmail.com">Contact</a>
       </div>
     </div>
   </nav>
 
-<section class="container">
-  <h2 class="section-title">Events</h2>
-  <p class="muted">Talks, meetups, classes — past and upcoming. Synced with Google Calendar.</p>
-  <div class="filter-controls">
-    <button class="btn" id="showAll">All</button>
-    <button class="btn" id="showUpcoming">Upcoming</button>
-    <button class="btn" id="showPast">Past</button>
-  </div>
-  <div class="card"><div class="card-inner timeline" id="timeline">
-    <div class="loading-spinner">Loading events...</div>
-  </div></div>
-</section>
+  <main>
+    <section class="container">
+      <div class="section-heading">
+        <span class="eyebrow">Events</span>
+        <h1 class="big-title">Hackathons, project demos, and community work.</h1>
+        <p class="lead">A concise activity log for engineering work that does not need a full project card.</p>
+      </div>
+      <div class="timeline professional-timeline" id="timeline"></div>
+    </section>
+  </main>
 
   <footer class="container">
-    <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
-      <div>© <span id="year"></span> Paul Chukwu. All rights reserved.</div>
-      <div class="muted">Built with vanilla HTML/CSS/JS. Deployed on GitHub Pages or Netlify.</div>
+    <div class="footer-inner">
+      <div>&copy; <span id="year"></span> Paul Chukwu. Last updated June 2026.</div>
+      <div class="footer-links">
+        <a href="mailto:paul.chukwu.official@gmail.com">Email</a>
+        <a href="https://github.com/skubzy" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/paul-chukwu-a49b9a227/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
     </div>
   </footer>
   <script src="script.js"></script>
-  <script src="calendar.js"></script>
 </body>
 </html>

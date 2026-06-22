@@ -1,11 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" 
-/>
-  <title>Paul Chukwu — Home</title>
-  <meta name="description" content="Portfolio, projects, events, resume, and videos for Paul Chukwu." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Paul Chukwu | Embedded Systems, FPGA/RTL & Firmware Portfolio</title>
+  <meta name="description" content="Engineering portfolio for Paul Chukwu: embedded systems, firmware, FPGA/RTL, edge AI, hardware-software integration, hackathons, leadership, and technical teaching." />
+  <meta property="og:title" content="Paul Chukwu | Engineering Portfolio" />
+  <meta property="og:description" content="Computer Engineering portfolio focused on embedded systems, firmware, FPGA/RTL, and AI-enabled hardware products." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://skubzy.github.io/" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -14,124 +17,190 @@
 <body>
   <nav class="nav">
     <div class="container nav-inner">
-<a class="brand" href="index.html" aria-label="Paul Chukwu — Home">
-  <img class="logo" src="assets/Logo/PaulsLogo.png" alt="" />
-  <span>Paul Chukwu</span>
-</a>
-      <div class="nav-links">
+      <a class="brand" href="index.html" aria-label="Paul Chukwu home">
+        <img class="logo" src="assets/Logo/PaulsLogo.png" alt="" />
+        <span>Paul Chukwu</span>
+      </a>
+      <div class="nav-links" aria-label="Primary navigation">
         <a href="index.html" data-tab="home">Home</a>
-        <a href="projects.html" data-tab="projects">Projects</a>
-        <a href="events.html" data-tab="events">Events</a>
+        <a href="#projects">Projects</a>
+        <a href="#hackathons">Hackathons</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#skills">Skills</a>
         <a href="resume.html" data-tab="resume">Resume</a>
-        <a href="videos.html" data-tab="videos">Videos</a>
-        <a class="cta" href="mailto:paul.chukwu@example.com">Contact</a>
+        <a class="cta" href="mailto:paul.chukwu.official@gmail.com">Contact</a>
       </div>
     </div>
   </nav>
 
-<header class="hero container">
-  <div class="card"><div class="card-inner">
-    <span class="pill">Computer Engineering @ uOttawa</span>
-    <h1 class="big-title">Building thoughtful systems that bridge hardware & software.</h1>
-    <p class="muted">I’m Paul Chukwu — a fourth-year Computer Engineering student focused on embedded systems, robotics, and human‑centric tools. I love shipping end‑to‑end: from PCB and sensors to firmware, data, and clean UIs.</p>
-    <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px">
-      <a class="btn primary" href="projects.html">View Projects</a>
-      <a class="btn" href="resume.html">See Resume</a>
-      <a class="btn" href="videos.html">Watch Demos</a>
-    </div>
-  </div></div>
-</header>
-<section class="container">
-  <h2 class="section-title">Quick Stats</h2>
-  <div class="resume-list">
-    <div class="resume-item">
-      <div class="title" style="font-weight:800"></div>
-        <a class="title" href="Skills.html">Skills</a>
-      <div class="muted">
-        <a class="title" href="Skills.html">C/C++, Python, Java, VHDL, SystemVerilog, MATLAB, Arduino, Android Studio</a> </div>
-    </div>
-    <div class="resume-item">
-      <div class="title" style="font-weight:800"></div>
-     <a class="title" href="Skills.html">Interests</a>
-      <div class="muted">
-        <a class="title" href="Skills.html">Assistive tech, mechatronics, computer vision, healthcare UX</a> </div>
-    </div>
-    <div class="resume-item">  
-     <div class="title" style="font-weight:800"></div>
-      <a class="title" href="Skills.html">Awards</a>
-      <div class="muted">
-        <a class="title" href="Skills.html">Crunch Competition 2023 • Ross FBGA @ Hack the Hill • Ontario Honour Roll</a> </div>
-    </div>
-    <div class="resume-item">
-      <div class="title" style="font-weight:800"></div>
-      <a class="title" href="Skills.html">Contacts</a>
-      <div class="muted">
-        <a class = "title" href="Skills.html">Ottawa ON •</a>  <a href="mailto:paul.chukwu.official@gmail.com">Email</a> • <a href="https://www.linkedin.com/in/paul-chukwu-a49b9a227/" target="_blank" rel="noopener">LinkedIn</a> • <a href="https://github.com/skubzy" target="_blank" rel="noopener">GitHub</a></div></div>
-  </div>
-</section>
-<section class="container">
-  <h2 class="section-title">About Me</h2>
-  <div class="gallery-grid">
-    <div class="gallery-section">
-      <h3 class="gallery-title">Electrical Projects</h3>
-      <div class="photo-grid">
-        <div class="photo-item">
-          <img src="assets/Game/ProjectGame1.jpg" alt="Electrical Project 1" />
-        </div>
-        <div class="photo-item">
-          <img src="assets/Game/ProjectGame2.jpg" alt="Electrical Project 2" />
-        </div>
-        <div class="photo-item">
-          <img src="assets/Game/ProjectGame3.jpg" alt="Electrical Project 3" />
-        </div>
-        <div class="photo-item">
-          <img src="assets/Game/ProjectGame5.jpg" alt="Electrical Project 4" />
+  <main>
+    <header class="hero container">
+      <div class="hero-copy">
+        <span class="pill">Computer Engineering student at uOttawa | Graduating 2026</span>
+        <h1 class="big-title">I build real hardware/software products.</h1>
+        <p class="lead">Computer Engineering student at the University of Ottawa graduating in 2026, focused on embedded systems, firmware, FPGA/RTL, edge AI, and hardware-software product development. I enjoy building systems that connect software to physical hardware, including telemetry systems, Jetson-based AI prototypes, UART communication systems, and FPGA video projects.</p>
+        <div class="actions">
+          <a class="btn primary" href="assets/Resume/Paul_Chukwu_Resume.pdf" download>Download Resume</a>
+          <a class="btn" href="projects.html">View Projects</a>
+          <a class="btn" href="https://github.com/skubzy" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/paul-chukwu-a49b9a227/" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
-    </div>
+      <div class="hero-visual" aria-label="Abstract embedded systems visual">
+        <div class="terminal-card">
+          <div class="terminal-top"><span></span><span></span><span></span></div>
+          <pre><code>$ build target=embedded
+firmware: sensors + control
+rtl: fsm + uart + timing
+ai: edge inference + vision
+product: prototype -> demo</code></pre>
+        </div>
+        <div class="circuit-grid" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </header>
 
-    <div class="gallery-section">
-      <h3 class="gallery-title">Gym Photos</h3>
-      <div class="photo-grid">
-        <div class="photo-item">
-          <img src="assets/Gym/Me1.jpg" alt="Gym Photo 1" />
-        </div>
-        <div class="photo-item">
-          <img src="assets/Fits/Me2.jpg" alt="Gym Photo 2" />
-        </div>
-        <div class="photo-item">
-          <img src="assets/Gym/Gym5.jpg" alt="Gym Photo 3" />
-        </div>
-        <div class="photo-item">
-          <img src="assets/Gym/Gym9.jpg" alt="Gym Photo 4" />
-        </div>
-        <div class="photo-item">
-          <img src="assets/Gym/Gym7.jpg" alt="Gym Photo 5" />
-        </div>
+    <section class="container" id="projects">
+      <div class="section-heading">
+        <span class="eyebrow">Featured Engineering Projects</span>
+        <h2 class="section-title">Technical builds that show firmware, FPGA, edge AI, and product work.</h2>
+        <p class="muted">Structured cards are loaded from <code>data/projects.json</code>. Each card focuses on what was built, the tools used, and the engineering contribution.</p>
       </div>
-    </div>
+      <div class="grid project-grid" id="featuredProjectGrid"></div>
+      <div class="actions center-actions">
+        <a class="btn primary" href="projects.html">See all projects</a>
+      </div>
+    </section>
 
-    <div class="gallery-section">
-      <h3 class="gallery-title">Cool Fits</h3>
-      <div class="photo-grid">
-        <div class="photo-item">
-          <img src="assets/Fits/Me3.jpg" alt="Outfit 1" />
-        </div>
-        <div class="photo-item">
-          <img src="assets/Fits/Me4.jpg" alt="Outfit 2" />
-        </div>
-        <div class="photo-item">
-          <img src="assets/Fits/Me5.jpg" alt="Outfit 3" />
+    <section class="container section-compact" id="hackathons">
+      <div class="section-heading">
+        <span class="eyebrow">Hackathons & Competitions</span>
+        <h2 class="section-title">Rapid prototyping, teamwork, and product thinking.</h2>
+        <p class="muted">These experiences show how I work under constraints: define the problem, build quickly, communicate tradeoffs, and present a credible technical result.</p>
+      </div>
+      <div class="info-grid">
+        <article class="activity-card">
+          <span class="eyebrow">Hackathon</span>
+          <h3>Skytrac Hackathon</h3>
+          <p>Worked in a fast technical environment focused on problem solving, team execution, and building a presentable engineering solution under time pressure.</p>
+        </article>
+        <article class="activity-card">
+          <span class="eyebrow">Student Engineering</span>
+          <h3>SESA Mini Hackathons</h3>
+          <p>Participated in short-format engineering challenges that emphasized rapid ideation, implementation discipline, and clear technical communication.</p>
+        </article>
+        <article class="activity-card">
+          <span class="eyebrow">FPGA / Video Systems</span>
+          <h3>Hack the Hill / Ross Video FBGA Challenge</h3>
+          <p>Contributed to an FPGA/video display challenge involving vector manipulation and technical debugging, with second-place recognition noted in the project context.</p>
+        </article>
+        <article class="activity-card">
+          <span class="eyebrow">Product Competition</span>
+          <h3>Crunch Competition / EcoSorter</h3>
+          <p>Presented a smart waste sorting concept with hardware/software product framing, showing embedded systems thinking, sustainability focus, and pitch-ready communication.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section-compact" id="leadership">
+      <div class="section-heading">
+        <span class="eyebrow">Leadership & Community</span>
+        <h2 class="section-title">Engineering community involvement beyond class projects.</h2>
+      </div>
+      <div class="info-grid">
+        <article class="activity-card">
+          <span class="eyebrow">Leadership</span>
+          <h3>Vice Chair, CEGSC / IEEE uOttawa Branch</h3>
+          <p>Supported student engineering leadership, event planning, technical community building, and professional development for computer engineering students.</p>
+        </article>
+        <article class="activity-card">
+          <span class="eyebrow">Events</span>
+          <h3>CEC Event Involvement</h3>
+          <p>Contributed to engineering event support and student-facing programming that helps connect technical students with community, resources, and opportunities.</p>
+        </article>
+        <article class="activity-card">
+          <span class="eyebrow">Community</span>
+          <h3>Engineering Student Engagement</h3>
+          <p>Participated in student outreach and engineering community work focused on collaboration, peer support, and stronger professional habits.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section-compact" id="teaching">
+      <div class="section-heading">
+        <span class="eyebrow">Workshops & Technical Teaching</span>
+        <h2 class="section-title">Communicating digital systems clearly.</h2>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <span class="eyebrow">Workshop Host</span>
+          <h3>Verilog Workshop Host</h3>
+          <p class="lead">Hosted a technical workshop introducing students to Verilog, digital logic design, and hardware description language fundamentals. Helped students understand RTL concepts through practical examples and guided explanations.</p>
+          <div class="tag-row">
+            <span class="tag">Verilog</span>
+            <span class="tag">RTL</span>
+            <span class="tag">Digital Logic</span>
+            <span class="tag">Technical Teaching</span>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
+
+    <section class="container section-compact" id="skills">
+      <div class="section-heading">
+        <span class="eyebrow">Skills</span>
+        <h2 class="section-title">Technical toolkit</h2>
+      </div>
+      <div class="skill-grid">
+        <div class="skill-card"><h3>Embedded & Firmware</h3><p>C, C++, Python, Arduino, Raspberry Pi, NVIDIA Jetson, GPIO, I2C/SPI, UART, sensors, telemetry, actuators, hardware debugging.</p></div>
+        <div class="skill-card"><h3>FPGA / RTL</h3><p>VHDL, SystemVerilog, FSM design, UART transmitters, baud-rate generation, Quartus, ModelSim-style simulation.</p></div>
+        <div class="skill-card"><h3>AI / Computer Vision</h3><p>CNN projects, pose/detection workflows, ONNX-style deployment concepts, GPU/edge inference, model optimization.</p></div>
+        <div class="skill-card"><h3>Apps & Product</h3><p>Android Studio, Java/Kotlin, Firebase/Firestore, UI flows, prototyping, Git/GitHub, technical demos.</p></div>
+      </div>
+    </section>
+
+    <section class="container section-compact" id="resume">
+      <div class="resume-cta card">
+        <div class="card-inner">
+          <span class="eyebrow">Updated Resume</span>
+          <h2 class="section-title">Recruiter-ready PDF</h2>
+          <p class="muted">Use the resume button for the current public resume included in this repository.</p>
+          <div class="actions">
+            <a class="btn primary" href="assets/Resume/Paul_Chukwu_Resume.pdf" download>Download Resume</a>
+            <a class="btn" href="resume.html">Resume page</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section-compact" id="contact">
+      <div class="contact-panel">
+        <div>
+          <span class="eyebrow">Contact</span>
+          <h2 class="section-title">Open to engineering roles and technical collaborations.</h2>
+          <p class="muted">Targeting full-time roles in embedded software, firmware, hardware validation, FPGA, and systems engineering.</p>
+        </div>
+        <div class="actions">
+          <a class="btn primary" href="mailto:paul.chukwu.official@gmail.com">Email Paul</a>
+          <a class="btn" href="https://github.com/skubzy" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/paul-chukwu-a49b9a227/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="container">
-    <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
-      <div>© <span id="year"></span> Paul Chukwu. All rights reserved.</div>
-      <div class="muted">Built with vanilla HTML/CSS/JS. Deployed on GitHub Pages or Netlify.</div>
+    <div class="footer-inner">
+      <div>&copy; <span id="year"></span> Paul Chukwu. Last updated June 2026.</div>
+      <div class="footer-links">
+        <a href="mailto:paul.chukwu.official@gmail.com">Email</a>
+        <a href="https://github.com/skubzy" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/paul-chukwu-a49b9a227/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
     </div>
   </footer>
   <script src="script.js"></script>

@@ -1,10 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Paul Chukwu — Resume</title>
-  <meta name="description" content="Resume and cover letter for Paul Chukwu." />
+  <title>Paul Chukwu | Resume</title>
+  <meta name="description" content="Download Paul Chukwu's updated engineering resume." />
+  <meta property="og:title" content="Paul Chukwu | Resume" />
+  <meta property="og:description" content="Resume for embedded systems, firmware, FPGA/RTL, AI deployment, and product engineering roles." />
+  <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -13,53 +16,55 @@
 <body>
   <nav class="nav">
     <div class="container nav-inner">
-<a class="brand" href="index.html" aria-label="Paul Chukwu — Home">
-  <img class="logo" src="assets/Logo/PaulsLogo.png" alt="" />
-  <span>Paul Chukwu</span>
-</a>
-      <div class="nav-links">
+      <a class="brand" href="index.html" aria-label="Paul Chukwu home">
+        <img class="logo" src="assets/Logo/PaulsLogo.png" alt="" />
+        <span>Paul Chukwu</span>
+      </a>
+      <div class="nav-links" aria-label="Primary navigation">
         <a href="index.html" data-tab="home">Home</a>
         <a href="projects.html" data-tab="projects">Projects</a>
-        <a href="events.html" data-tab="events">Events</a>
+        <a href="skills.html" data-tab="skills">Skills</a>
         <a href="resume.html" data-tab="resume">Resume</a>
-        <a href="videos.html" data-tab="videos">Videos</a>
-        <a class="cta" href="mailto:paul.chukwu@example.com">Contact</a>
+        <a class="cta" href="mailto:paul.chukwu.official@gmail.com">Contact</a>
       </div>
     </div>
   </nav>
 
-<section class="container">
-  <h2 class="section-title">Resume & Cover Letter</h2>
-  <div class="two-col">
-    <div class="card"><div class="card-inner">
-      <h3 style="margin-top:4px">Resume Highlights</h3>
-      <div class="resume-list" id="resumeList"></div>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
-        <a class="btn primary" href="assets/Resume/Paul_Chukwu_Resume.pdf" download>Download Resume (PDF)</a>
-        <a class="btn" href="assets/Resume/Paul_Chukwu_Resume.pdf" target="_blank" rel="noopener">Open Resume in new tab</a>
+  <main>
+    <section class="container">
+      <div class="two-col">
+        <div class="card">
+          <div class="card-inner">
+            <span class="eyebrow">Updated Resume</span>
+            <h1 class="big-title">Paul Chukwu Resume</h1>
+            <p class="lead">Computer Engineering student at the University of Ottawa graduating in 2026, targeting full-time embedded software, firmware, hardware validation, FPGA, and systems engineering roles.</p>
+            <div class="actions">
+              <a class="btn primary" href="assets/Resume/Paul_Chukwu_Resume.pdf" download>Download Resume PDF</a>
+              <a class="btn" href="assets/Resume/Paul_Chukwu_Resume.pdf" target="_blank" rel="noopener">Open PDF</a>
+            </div>
+            <p class="muted small-note">Current public path: <code>assets/Resume/Paul_Chukwu_Resume.pdf</code>. Replace that file when updating the resume.</p>
+          </div>
+        </div>
+        <div class="resume-list">
+          <div class="resume-item"><strong>Target roles</strong><span>Embedded software, firmware, hardware validation, FPGA, and systems engineering.</span></div>
+          <div class="resume-item"><strong>Core stack</strong><span>C/C++, Python, Java/Kotlin, VHDL, SystemVerilog, Raspberry Pi, NVIDIA Jetson, Arduino, Android, Firebase, UART.</span></div>
+          <div class="resume-item"><strong>Portfolio proof</strong><span>EcoSorter, QNX airplane control, Jetson/AI pose estimation, Ultra Drone Detector, Traffic Light FSM/UART, FPGA video challenge, telemetry systems.</span></div>
+        </div>
       </div>
-    </div></div>
-    <div class="card"><div class="card-inner">
-      <h3 style="margin-top:4px">Cover Letter</h3>
-      <p class="muted">Make a role‑specific copy of this template per application.</p>
-      <div class="resume-item" contenteditable="true" spellcheck="true" style="min-height:220px">
-        <div class="title">Dear Hiring Manager,</div>
-        <p>I'm a Computer Engineering student at uOttawa with hands‑on experience across embedded systems, robotics, and Android. I design, build, and iterate quickly — from sensors and firmware to UI. I’d be excited to contribute to <strong>[Company/Team]</strong> by <em>shipping reliable, well‑tested features</em> that improve real users’ lives.</p>
-        <p>Recent work: <strong>EcoSorter</strong> (AI‑assisted waste sorting with servo control), <strong>Mirror Cap</strong> (assistive smart‑glasses), and a <strong>chess‑playing robot arm</strong> (C++/MATLAB). I value readable code, thoughtful documentation, and collaborative reviews.</p>
-        <p>Thanks for your time — I’d love to chat!</p>
-        <p>Sincerely,<br/>Paul Chukwu</p>
-      </div>
-      <p class="muted" style="margin-top:10px">Tip: Edit the boxed text, then copy‑paste into your application portal.</p>
-    </div></div>
-  </div>
-</section>
+    </section>
+  </main>
 
   <footer class="container">
-    <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
-      <div>© <span id="year"></span> Paul Chukwu. All rights reserved.</div>
-      <div class="muted">Built with vanilla HTML/CSS/JS. Deployed on GitHub Pages or Netlify.</div>
+    <div class="footer-inner">
+      <div>&copy; <span id="year"></span> Paul Chukwu. Last updated June 2026.</div>
+      <div class="footer-links">
+        <a href="mailto:paul.chukwu.official@gmail.com">Email</a>
+        <a href="https://github.com/skubzy" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/paul-chukwu-a49b9a227/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
     </div>
   </footer>
   <script src="script.js"></script>
 </body>
 </html>
+
