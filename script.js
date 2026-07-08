@@ -1,4 +1,5 @@
 const RESUME_PATH = "assets/Resume/Paul_Chukwu_Resume.pdf";
+const SPLINE_BACKGROUND_URL = "https://my.spline.design/nexbotrobotcharacterconcept-70JkBTMIfXxu0xHs0dNxYJyH/";
 
 const FALLBACK_PROJECTS = [
   {
@@ -65,6 +66,27 @@ const EVENTS = [
     note: "Presented the EcoSorter / eSoTrash smart recycling concept with hardware and product-system framing."
   }
 ];
+
+(function initSplineBackground() {
+  if (document.querySelector(".spline-background")) return;
+
+  const background = document.createElement("div");
+  background.className = "spline-background";
+  background.setAttribute("aria-hidden", "true");
+  background.innerHTML = `
+    <iframe
+      src="${SPLINE_BACKGROUND_URL}"
+      title="Futuristic robot background"
+      frameborder="0"
+      width="100%"
+      height="100%"
+      loading="eager"
+      tabindex="-1"
+      allow="autoplay; fullscreen; xr-spatial-tracking">
+    </iframe>
+  `;
+  document.body.prepend(background);
+})();
 
 (function initCommonUi() {
   const map = {
